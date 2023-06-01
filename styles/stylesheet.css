@@ -2,10 +2,6 @@
     box-sizing: border-box
 }
 
-body {
-    
-}
-
 header {
     background-image: ;
     background-color: #2c9ab7;
@@ -17,7 +13,10 @@ nav {
 }
 
 aside {
-
+    float: right;
+    width:30%; 
+    top: 0px;
+    bottom: 0px;
 }
 
 a {
@@ -27,13 +26,9 @@ a {
     padding-left: 3rem;
 }
 
-h3 {
-
-}
-
 footer {
     background-color: #3a3a3a;
-    clear: right;
+    clear: both;
 }
 
 .center {
@@ -46,9 +41,7 @@ footer {
     height: auto;
     padding: 5em;
     border: 1pt solid;
-    width: 35%;
     margin-left: 1rem;
-    float: right;
 }
 
 .top-nav {
@@ -66,4 +59,19 @@ footer {
 .footer-p {
     color: white;
     text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    padding: 10px;
+    height: auto;
 }

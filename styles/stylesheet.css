@@ -125,3 +125,17 @@ h1 {
     color: #7ac4d6;
     padding-bottom: 2rem;
 }
+
+/* Kitty Profiles CSS*/
+
+#profile-header-pic {
+    float: left;
+    width: 1350px;
+    border: 2pt solid white;
+    border-radius: 15pt;
+}
+
+.profile-pic {
+    height: 300px;
+    width: 300px;
+}

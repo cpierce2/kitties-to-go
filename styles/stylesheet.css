@@ -1,77 +1,127 @@
+/* Stylesheet for Kitties To Go website*/
+
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: justify;
 }
 
 header {
-    background-image: ;
     background-color: #2c9ab7;
+    padding-right: 50%;
+    padding-left: 8em;
+    padding-top: 4rem;
+    padding-bottom: 4em;
+    color: white;
+    min-width: auto;
+    max-width: auto;
 }
 
-nav {
-    padding: 1rem;
-    background-color: #ebebeb;
+article {
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 8em;
+    padding-right: 1rem;
 }
 
 aside {
+    width: 35%;
+    padding-left: 8em;
+    margin-right: 5em;
+    height: auto;
     float: right;
-    width:30%; 
-    top: 0px;
-    bottom: 0px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding-left: 3rem;
+    margin-bottom: 2rem;
+    min-width: auto;
+    max-width: auto;
 }
 
 footer {
     background-color: #3a3a3a;
-    clear: both;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.content-box {
-    height: auto;
-    padding: 5em;
-    border: 1pt solid;
-    margin-left: 1rem;
-}
-
-.top-nav {
-    background-color: lightgray;
-    text-align: center;
-    text-decoration-color: black;
-}
-
-.bot-nav {
-    background-color: #3a3a3a;
-    text-align: center;
-    text-decoration-color: white;
-}
-
-.footer-p {
+    padding-top: 4em;
+    padding-bottom: 3em;
     color: white;
     text-align: center;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
+    font-size: 14pt;
     clear: both;
 }
 
-.row {
-    display: flex;
+h1 {
+    color: #239ab9;
+    font-size: x-large;
 }
 
-.column {
-    padding: 10px;
-    height: auto;
+/* Start of classes*/
+
+.nav-1 {
+    background-color: #ebebeb;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 8rem;
+}
+
+.nav-1-link{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav1-span-style {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.nav-2 {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-2:first {
+    color: white;
+    text-decoration: none;
+}
+
+.nav2-span-style {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-p {
+    font-size: 16pt;
+}
+
+.side-p {
+    font-size: large;
+}
+
+.footer-padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.side-link {
+    color: #2c9ab7;
+    text-decoration: none;
+}
+
+/* Start of IDs*/
+
+#art-header {
+    font-size: 52pt;
+    font-weight: bolder;
+    line-height: 0%;
+}
+
+#subheader {
+    font-size: 36px;
+    font-style: italic;
+    line-height: 2.5rem;
+}
+
+#quote {
+    color: #7ac4d6;
+    padding-bottom: 2rem;
 }

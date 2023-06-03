@@ -36,6 +36,10 @@ aside {
     min-width: auto;
 }
 
+figure {
+    margin: auto;
+}
+
 footer {
     background-color: #3a3a3a;
     padding-top: 4em;
@@ -44,11 +48,6 @@ footer {
     text-align: center;
     font-size: 14pt;
     clear: both;
-}
-
-h1 {
-    color: #239ab9;
-    font-size: x-large;
 }
 
 /* Start of classes*/
@@ -107,7 +106,7 @@ h1 {
 
 /* Start of IDs*/
 
-#art-header {
+#page-header {
     font-size: 52pt;
     font-weight: bolder;
     line-height: 0%;
@@ -117,6 +116,11 @@ h1 {
     font-size: 36px;
     font-style: italic;
     line-height: 2.5rem;
+}
+
+#h2-color {
+    color: #239ab9;
+    font-size: x-large;
 }
 
 #quote {

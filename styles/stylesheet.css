@@ -17,7 +17,6 @@ header {
     padding-bottom: 4em;
     color: white;
     min-width: auto;
-    max-width: auto;
 }
 
 article {
@@ -35,7 +34,6 @@ aside {
     float: right;
     margin-bottom: 2rem;
     min-width: auto;
-    max-width: auto;
 }
 
 footer {
@@ -128,14 +126,30 @@ h1 {
 
 /* Kitty Profiles CSS*/
 
-#profile-header-pic {
-    float: left;
-    width: 1350px;
-    border: 2pt solid white;
-    border-radius: 15pt;
+/*Classes*/
+
+
+.profile-container {
+    height: auto;
+    width: 400px;
+    flex: content;
 }
 
 .profile-pic {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    float: right;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+/*Id's*/
+
+#profile-header-pic {
+    float: left;
+    width: auto;
+    border: 2pt solid white;
+    border-radius: 15pt;
 }

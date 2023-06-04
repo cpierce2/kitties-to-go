@@ -11,8 +11,6 @@ body {
 
 header {
     background-color: #2c9ab7;
-    width: auto;
-    padding-left: 8em;
     padding-top: 4rem;
     padding-bottom: 4em;
     color: white;
@@ -49,6 +47,22 @@ footer {
     text-align: center;
     font-size: 14pt;
     clear: both;
+}
+
+caption {
+    font-weight: bolder;
+}
+
+button {
+    background-color: #2c9ab7;
+    font-weight: bold;
+    width: auto;
+    margin-left: 8rem;
+}
+
+th {
+    text-decoration: underline;
+    text-underline-offset: 2pt;
 }
 
 /* Start of classes*/
@@ -108,11 +122,13 @@ footer {
 /* Start of IDs*/
 
 #page-header {
+    padding-left: 8em;
     font-size: 52pt;
     font-weight: bolder;
 }
 
 #subheader {
+    padding-left: 8em;
     font-size: 36px;
     font-style: italic;
 }
@@ -126,6 +142,67 @@ footer {
     color: #7ac4d6;
     padding-bottom: 2rem;
 }
+
+/* About Page CSS*/
+
+/*Classes*/
+
+.about-article {
+
+}
+
+/* Rates Page CSS*/
+
+/*Classes*/
+
+.rate-table {
+    text-align: center;
+    width: 25em;
+    min-width: 25em;
+    padding: 2rem;
+    background-color: #7ac4d6;
+    border: 2pt solid;
+    margin-bottom: 2rem;
+}
+
+.selection-table {
+    width: 25em;
+    min-width: 25em;
+}
+
+.column {
+    float: left;
+}
+  
+.left {
+    width: 25%;
+}
+  
+.right {
+    padding-left: 5em;
+    align-items: flex-end;
+}
+
+/*IDs*/
+
+#p1-container {
+    width: 30%;
+    padding-bottom: 2rem;
+}
+
+#kitten-img {
+    width: 25em;
+    min-width: 25em;
+    height: 40em;
+    padding: 1rem;
+    background-color: #2c9ab7;
+    border: 3pt solid #3a3a3a;
+    border-radius: 5pt;
+}
+
+/* Release Page CSS*/
+
+/*Classes*/
 
 /* Kitty Profiles CSS*/
 
@@ -150,9 +227,15 @@ footer {
 
 /*Id's*/
 
-#profile-header-pic {
-    float: left;
-    width: auto;
+#header-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     border: 2pt solid white;
     border-radius: 15pt;
 }
+
+/* Booking Page CSS*/
+
+/*Classes*/

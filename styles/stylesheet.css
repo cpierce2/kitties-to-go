@@ -60,8 +60,7 @@ body {
 button {
     background-color: #2c9ab7;
     font-weight: bold;
-    width: auto;
-    margin-left: 8rem;
+    width: 100%;
 }
 
 #booking-article-left {
@@ -217,8 +216,7 @@ header {
 .profile-container {
     height: auto;
     width: 25%;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
     padding: 1rem;
 }
 
@@ -265,8 +263,18 @@ header {
     margin-bottom: 2rem;
 }
 
+#rates-article {
+    height: auto;
+    width: auto;
+    min-width: 800px;
+    padding-top: 1rem;
+    padding-left: 8em;
+    padding-right: 1rem;
+}
+
 .selection-table {
-    width: 25em;
+    width: auto;
+    height: auto;
     min-width: 25em;
 }
 
